@@ -1,0 +1,234 @@
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  overflow-x: hidden !important;
+}
+.bg-sma {
+  background-image: url("https://www.minecraft.net/content/dam/archive/backgrounds/bg-wool-white.png") !important;
+  z-index: 1;
+  padding-bottom: 50px;
+}
+.bg-smx {
+  padding-top: 100px;
+  background-image: url("https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png") !important;
+  z-index: 1;
+}
+.content {
+  margin: auto;
+  margin-top: -100px;
+  width: 60%;
+  padding: 50px;
+  transition: 0.3s;
+}
+.content .card {
+  margin: auto;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.shadow {
+  width: 95% !important;
+  margin: auto;
+  background-color: #fff;
+  z-index: -1 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 100px 100px;
+}
+#intro-example {
+  transition: 0.8s;
+  background-attachment: fixed;
+  border-radius: 0 0 50px 50px;
+  height: 600px !important;
+}
+
+#intro-example:hover {
+  margin-bottom: 30px !important;
+  background-position: top;
+}
+.img-seperator {
+  background-image: url("https://images8.alphacoders.com/108/thumb-1920-1081076.png");
+  z-index: 1;
+  height: 400px;
+  padding-top: 100px;
+  margin-bottom: -50px;
+  -webkit-animation: separatoranm 30s ease-out infinite normal;
+  animation: separatoranm 30s ease-out infinite normal;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.separator-text {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 200px;
+  transition: 0.3s;
+}
+.separator-text > b {
+  transition: 0.3s;
+}
+.img-seperator:hover {
+  background-image: url("https://images7.alphacoders.com/556/thumb-1920-556718.jpg");
+}
+.img-seperator:hover > .separator-text > b {
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+@keyframes separatoranm {
+  0% {
+    background-position: top;
+  }
+  50% {
+    background-position: bottom;
+  }
+  100% {
+    background-position: top;
+  }
+}
+.background-s {
+  z-index: -5;
+  width: 100%;
+  background-image: url("../assets/bg.jpg");
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  text-align: center;
+  color: rgb(236, 236, 236);
+  padding-top: 80px;
+  text-transform: uppercase;
+  letter-spacing: 50px;
+  transition: 1s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-s h3 {
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.background-s b {
+  font-weight: bolder;
+  color: #fff;
+  font-weight: 900;
+}
+.scrolled {
+  letter-spacing: 1px;
+}
+.partnerzy {
+  text-align: center;
+}
+.partnerzy h1 {
+  font-weight: 100;
+}
+.carousel-inner a {
+  text-decoration: none;
+  color: rgb(87, 87, 87) !important;
+  font-weight: 900;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.carusel-card {
+  transition: 0.3s;
+}
+.carousel-inner a:hover {
+  color: rgb(0, 0, 0) !important;
+}
+.carusel-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.js-scroll-left {
+  right: 500px !important;
+  transition: 1s;
+}
+.left-animation {
+  right: 0px !important;
+}
+.js-scroll-right {
+  left: 300px !important;
+  transition: 1s;
+}
+.right-animation {
+  left: 0px !important;
+  display: none;
+}
+.js-scroll-bottom {
+  top: 300px !important;
+  transition: 1s;
+  display: block;
+}
+.bottom-animation {
+  top: 0px !important;
+}
+.js-scroll-flow {
+  opacity: 0;
+  transition: 1s;
+  transform: scale(0.1);
+}
+.flow-animation {
+  transform: scale(1);
+  opacity: 1;
+}
+.animation-start {
+  animation-name: animationstart;
+  animation-duration: 4s;
+}
+.animation-starttop {
+  animation-name: topanimationstart;
+  animation-duration: 1s;
+}
+@keyframes animationstart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes topanimationstart {
+  from {
+    position: relative;
+    opacity: 0;
+    -webkit-transform: translate(0%, -50px);
+    -moz-transform: translate(0%, -50px);
+    -ms-transform: translate(0%, -50px);
+    -o-transform: translate(0%, -50px);
+    transform: translate(0%, -50px);
+  }
+  to {
+    position: static;
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+.logo {
+  font-size: 72px !important;
+  font-weight: 300;
+}
+
+.logo > span {
+  color: rgb(238, 225, 40);
+  font-weight: 900;
+}
+
+.classic-img {
+  height: 250px;
+  background-image: url("../szablony/3/preview.png");
+  background-size: cover;
+  background-position: top;
+  transition: 1s;
+}
+
+.classic-img:hover {
+  background-position: bottom;
+  cursor: pointer;
+}
+
+.template-footer > button {
+  height: 50px !important;
+}

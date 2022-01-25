@@ -1,0 +1,40 @@
+.colorCard {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.colorCard:hover {
+  transform: scale(1.01);
+  box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+i {
+  transition: 0.5s;
+}
+.colorCard:hover > div > div > div > i {
+  animation: animatename 10s linear infinite;
+}
+
+@keyframes animatename {
+  20% {
+    color: #39c0ed;
+  }
+  40% {
+    color: #b23cfd;
+  }
+  60% {
+    color: #f93154;
+  }
+  80% {
+    color: #ffa900;
+  }
+}
+
+.colorCircle {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.colorCircle:hover {
+  transform: scale(1.5);
+}

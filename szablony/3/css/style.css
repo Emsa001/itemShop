@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+html {
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 0px #cf2bcf;
+	border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #cf2bcf;
+	border-radius: 0px;
+}
+*::selection {
+	color: #fff;
+	background: #cf2bcf;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: #010101;
+	overflow-y: hidden;
+}
+a {
+	text-decoration: none;
+}
+.container-fluid {
+	padding-top: 2%;
+	padding-bottom: 1.5%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.nav-item-my a:focus{
+	color:#fff !important;
+}
+
+.navbar {
+	background-color: #00000000 !important;
+	color: white !important;
+}
+.mynav {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}	
+.navbar-nav li {
+	margin: 10px;
+}
+.btn-shop {
+    display: inline-block;
+    padding: 18px 40px !important;
+	font-size: 18px !important;
+	letter-spacing: 2px !important;
+    color: #fff;
+    font: 700 0.75rem/0 "Montserrat", sans-serif;
+    text-decoration: none;
+	border-radius: 30px;
+	background-color: transparent;
+	text-decoration: none;
+	border: solid 2px #cf2bcf;
+	transition: all 0.5s;
+}
+
+.btn-shop:hover{
+    background-color:#cf2bcf;
+    color: #fff;
+}
+
+.header h1 {
+	font-size: 89px;
+	color: #CFCFCF;
+}
+.header > .tags > span {
+	font-size: 25px;
+	color: #fff;
+    padding:5px;
+    margin-left:10px;
+}
+
+
+
+.logo1{
+	position:relative;
+    animation: logo1;
+    animation-duration: 2s;
+	-webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+	-moz-animation-fill-mode: forwards;    /* FF 5+ */
+	-o-animation-fill-mode: forwards;      /* Not implemented yet */
+	-ms-animation-fill-mode: forwards;     /* IE 10+ */
+	animation-fill-mode: forwards;         /* When the spec is finished */
+}
+.logo2{
+	position:relative;
+    animation: logo2;
+    animation-duration: 3s;
+	-webkit-animation-fill-mode: forwards; /* Chrome 16+, Safari 4+ */
+	-moz-animation-fill-mode: forwards;    /* FF 5+ */
+	-o-animation-fill-mode: forwards;      /* Not implemented yet */
+	-ms-animation-fill-mode: forwards;     /* IE 10+ */
+	animation-fill-mode: forwards;         /* When the spec is finished */
+}
+
+@keyframes logo1{
+    0%{
+		background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/purple-top-gradient-background.jpg");
+		background-repeat: repeat;
+		background-position: top;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 200px;
+		font-size: 60px;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: 'Steelfish Rg', 'helvetica neue',
+					helvetica, arial, sans-serif;
+		font-weight: 800;
+		-webkit-font-smoothing: antialiased;
+    }
+    100%{
+		background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/purple-top-gradient-background.jpg");
+		background-repeat: repeat;
+		background-position: bottom;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 200px;
+		font-size: 70px;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: 'Steelfish Rg', 'helvetica neue',
+					helvetica, arial, sans-serif;
+		font-weight: 800;
+		-webkit-font-smoothing: antialiased;
+    }
+}
+@keyframes logo2{
+    0%{
+		background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/purple-top-gradient-background.jpg");
+		background-repeat: repeat;
+		background-position: bottom;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 200px;
+		font-size: 65px;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: 'Steelfish Rg', 'helvetica neue',
+					helvetica, arial, sans-serif;
+		font-weight: 800;
+		-webkit-font-smoothing: antialiased;
+    }
+    100%{
+		background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/purple-top-gradient-background.jpg");
+		background-repeat: repeat;
+		background-position: top;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 200px;
+		font-size: 70px;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: 'Steelfish Rg', 'helvetica neue',
+					helvetica, arial, sans-serif;
+		font-weight: 800;
+		-webkit-font-smoothing: antialiased;
+    }
+}
+  
+
+.btn-voucher {
+    display: inline-block;
+    padding: 18px 40px;
+    color: #fff;
+    font: 700 0.75rem/0 "Montserrat", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+	border-radius: 30px;
+	background-color: transparent;
+	text-decoration: none;
+	border: solid 2px #cf2bcf;
+	background: #cf2bcf;
+	margin-top: 50px;
+	transition: all 0.5s;
+
+}
+
+.btn-voucher:hover{
+	background-color: #a125a1;
+	border: 1px solid #a125a1;
+	font-size:13px;
+	color:#fff;
+}
+
+.btn-sklep:hover {
+	background-color: transparent;
+	text-decoration: none;
+	box-shadow: 0px 0px 5px 2px #cf2bcf;
+	border: solid 2px #cf2bcf;
+	background: #cf2bcf;
+}
+.header {
+	padding: 100px 0px;
+}
+header {
+	background-image: url("../header.png");
+	background-position: bottom;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+	margin-top:100px;
+}
+
+.shop-item{
+	background-color: #131314;
+	border-radius: 20px;
+	text-align: center;
+	border:1px solid #000;
+	margin-bottom:50px;
+	margin-left:20px;
+}
+
+.shop-item > img{
+	max-width: 170px;
+	max-height: 270px;
+	margin:auto;
+	margin-top:20px;
+}
+
+.shop-item > .card-body > .btn{
+	display: inline-block;
+	padding: 23px 70px;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.5s;
+	border-radius: 30px;
+	background-color: transparent;
+	text-decoration: none;
+	border: solid 1px #cf2bcf;
+	background: #cf2bcf;
+	box-shadow: 0px 0px 0px 0px #cf2bcf;
+	margin-top: 20px;
+	margin-bottom: -40px;
+}
+
+.card-title{
+	color:rgb(154, 24, 230);
+	font-weight: 900;
+	text-transform: uppercase;
+	font-family: 'Rubik', sans-serif;
+	-webkit-text-stroke: 1px #e02ce0;
+}
+
+.card-text{
+	color:#fff;
+}
+
+.item-price{color:rgb(143, 143, 143);text-transform: uppercase;}
+
+.item-price > span{
+	color: rgb(206, 3, 196);
+	font-weight: 900;
+	font-size:25px;display:inline-block;
+}
+
+.btn-order:hover{
+	font-size: 14px !important;
+	background-color: #131314 !important;
+	border: 1px solid #cf2bcf !important;
+}
+
+
+#loading {
+	margin-top: 150px;
+	text-align: center;
+	animation: pulse-black infinite;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes pulse-black {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.container, .header{
+	position: relative;
+	margin-bottom:100px;
+	animation: containeranimation;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes containeranimation {
+	0% {
+		top:200px;
+		opacity: 0.1;
+	}
+
+	100% {
+		top:0px;
+		opacity: 1;
+	}
+}
+
+.title{
+	margin:auto;
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: 'Yomogi', cursive;
+	font-weight: 600;
+	margin-bottom:30px;
+	letter-spacing: 10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #fff;
+	animation: borderbottom;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes borderbottom{
+	0%{
+		width:200px;
+	}
+	100%{
+		width:800px;
+	}
+}
+
+.regulamin{
+	width:800px !important;
+}
+
+.reg-title{
+	font-size:20px;
+	text-transform: uppercase;
+}
